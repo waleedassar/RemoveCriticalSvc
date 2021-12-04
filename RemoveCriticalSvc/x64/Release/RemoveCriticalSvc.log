@@ -1,0 +1,52 @@
+﻿Build started 12/9/2020 6:58:38 AM.
+     1>Project "F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\RemoveCriticalSvc\RemoveCriticalSvc.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D REMOVECRITICALSVC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\RemoveCriticalSvc.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D REMOVECRITICALSVC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D REMOVECRITICALSVC_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\RemoveCriticalSvc.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Priv.cpp ProcessEnum.cpp RemoveCriticalSvc.cpp
+         Priv.cpp
+     1>Priv.cpp(41): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(56): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(70): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(86): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(103): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(120): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(135): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(150): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(164): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(178): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(196): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(211): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(225): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(241): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(258): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(275): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(290): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(305): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(319): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(334): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(349): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(364): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(380): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Priv.cpp(395): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         ProcessEnum.cpp
+         RemoveCriticalSvc.cpp
+     1>RemoveCriticalSvc.cpp(70): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'DWORD', possible loss of data
+     1>RemoveCriticalSvc.cpp(87): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'DWORD', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\x64\Release\RemoveCriticalSvc.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\x64\Release\RemoveCriticalSvc.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\x64\Release\RemoveCriticalSvc.lib" /MACHINE:X64 /DLL x64\Release\dllmain.obj
+         x64\Release\Priv.obj
+         x64\Release\ProcessEnum.obj
+         x64\Release\RemoveCriticalSvc.obj
+         x64\Release\stdafx.obj
+            Creating library F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\x64\Release\RemoveCriticalSvc.lib and object F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\x64\Release\RemoveCriticalSvc.exp
+         Generating code
+         Finished generating code
+         RemoveCriticalSvc.vcxproj -> F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\x64\Release\RemoveCriticalSvc.dll
+     1>Done Building Project "F:\kernel\Projects\SvcHostServices\RemoveCriticalSvc\RemoveCriticalSvc\RemoveCriticalSvc\RemoveCriticalSvc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.82
